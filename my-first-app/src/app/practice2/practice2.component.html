@@ -1,0 +1,12 @@
+<p>
+  Practice 2!
+</p>
+<input type="text" class="form-control"
+ [(ngModel)]="username">
+<p>{{ username }}</p>
+<button class="btn btn-info"
+  [disabled]="!isEmpty()"
+  (click)="clearUsername()"
+>
+  Clear
+</button>

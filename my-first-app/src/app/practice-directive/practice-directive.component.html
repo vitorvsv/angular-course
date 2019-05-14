@@ -1,0 +1,28 @@
+<button
+  class="btn btn-info"
+  (click)="toggle()"
+>Display details</button>
+
+<p
+  style="margin-top: 10px"
+  [ngStyle]="{'display': getDisplayValue()}"
+>This is static content</p>
+
+<div *ngFor="let item of displayLogs | keyvalue ">
+
+
+  <p
+    *ngIf="+item.key > 5; else biggerFive"
+  >
+<!--    No Bigger - {{ +item.key + 1 }} : {{item.value}}-->
+    11 -- {{ +item.key > 5 }}
+  </p>
+
+  <ng-template #biggerFive>
+<!--    Bigger Five - {{ +item.key + 1 }} : {{item.value}}-->
+    22 -- {{ +item.key > 5 }}
+  </ng-template>
+
+
+</div>
+

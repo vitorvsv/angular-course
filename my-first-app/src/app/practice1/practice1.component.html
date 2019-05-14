@@ -1,0 +1,7 @@
+<input class="form-control" type="text" [(ngModel)]="username">
+<p>{{ username }}</p>
+<button
+  disabled="{{ (username != '') ? '' : 'disabled' }}"
+  class="btn btn-danger"
+  (click)="clicked()"
+>Clear</button>
