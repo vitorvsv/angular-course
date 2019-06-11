@@ -10,7 +10,10 @@ import {
   AfterContentInit,
   AfterContentChecked,
   AfterViewChecked,
-  OnDestroy
+  OnDestroy,
+  ViewChild,
+  ElementRef,
+  ContentChild
 } from '@angular/core';
 
 @Component({
@@ -30,11 +33,12 @@ AfterViewInit,
 AfterViewChecked,
 OnDestroy
 {
-
   // By default all proprietates of a component are restricted access
   // 
   @Input('srvElement') element: {type: string, name: string, content: string};
   @Input() name : string;
+  // @ViewChild('heading') header: ElementRef;
+  @ContentChild('contentParagraph', {static: true}) paragraph: ElementRef;
 
   constructor() {
     console.log("Called constructor!");
@@ -46,6 +50,7 @@ OnDestroy
 
   ngOnInit() {
     console.log("Called ngOnInit!");
+    console.log("paragraph Content: " + this.paragraph.nativeElement.textContent);
   }
   
   ngDoCheck() {
@@ -54,6 +59,7 @@ OnDestroy
   
   ngAfterContentInit() {
     console.log("ngAfterContentInit called!");
+    console.log("paragraph Content: " + this.paragraph.nativeElement.textContent);
   }  
   
   ngAfterContentChecked() {
@@ -72,5 +78,4 @@ OnDestroy
   ngOnDestroy() {
     console.log("ngOnDestroy called!");
   }
-
 }
