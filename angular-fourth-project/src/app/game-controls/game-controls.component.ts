@@ -1,4 +1,9 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { 
+  Component, 
+  OnInit,
+  Output,
+  EventEmitter,
+} from '@angular/core';
 
 @Component({
   selector: 'app-game-controls',
@@ -8,11 +13,9 @@ import { Component, OnInit, Output } from '@angular/core';
 
 export class GameControlsComponent implements OnInit {
 
-  protected run = false;
-  protected counter = 0;
-  protected ref;
-
-  numbers = [2];
+  @Output() intervalFired = new EventEmitter<number>();
+  number = 0;
+  interval;
 
   constructor() { }
 
@@ -20,31 +23,14 @@ export class GameControlsComponent implements OnInit {
   }
 
   startRun() {
-    this.run = true;
-    this.runCounter();
+    this.interval = setInterval(() => {
+      this.intervalFired.emit(this.number);
+      this.number++;
+    }, 1000);
   }
-  
+
   stopRun() {
-    this.run = false;
-    this.runCounter();
-  }
-
-  runCounter() {
-    if (this.run) {
-
-      this.ref = setInterval(self => { 
-        self.counter++;
-        console.log(self.counter); 
-      }, 1000, this);
-
-      // this.ref = setInterval(function(counter) {
-      //   counter++;
-      //   console.log(counter);
-      // }, 1000, this.counter);
-
-    } else {
-      clearInterval(this.ref);
-    }
+    clearInterval(this.interval);
   }
 
 }
