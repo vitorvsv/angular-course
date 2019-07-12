@@ -12,7 +12,6 @@ export class DropdownDirective {
   //   this.isOpen = !this.isOpen;
   // }
 
-
   @HostBinding('class.open') isOpen = false;
 
   @HostListener('document:click', ['$event']) toggleOpen(event: Event) {
