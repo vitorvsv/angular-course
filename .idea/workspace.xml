@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="536f418a-c4d3-45e0-b4eb-884b4a908b0d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/src/app/servers/server/server.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/servers/server/server.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/src/app/servers/server/server.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/servers/server/server.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routing-start/src/app/users/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/users/user/user.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing-start/src/app/users/user/user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routing-start/src/app/users/user/user.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routing-start/src/app/users/user/user.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -249,12 +244,12 @@
       <workItem from="1562714523037" duration="3211000" />
       <workItem from="1562948746259" duration="6252000" />
       <workItem from="1563066940116" duration="10300000" />
-      <workItem from="1563231257851" duration="4964000" />
+      <workItem from="1563231257851" duration="5638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84264000" />
+    <option name="totallyTimeSpent" value="84938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routing-start/src/app/users/user/user.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
