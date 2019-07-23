@@ -1,0 +1,13 @@
+web:
+    build: .
+    ports:
+            #- '8089:4200'
+        - '49153:49153'
+        - 4200:4200  
+    volumes:
+        - .:/usr/src/app/
+    environment:
+        - NODE_ENV=dev
+    command: bash -c "npm start"
+#    command: bash -c "npm install @angular/cli@8.1.2 && ng serve --port 49153"
+#    command: bash -c "ng serve --port 49153" 

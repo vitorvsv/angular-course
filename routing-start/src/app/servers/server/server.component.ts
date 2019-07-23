@@ -34,4 +34,8 @@ export class ServerComponent implements OnInit {
     // this.router.navigate(['servers'], {relativeTo: this.route});
   }
 
+  onEdit() {
+    this.router.navigate(['edit'], {relativeTo: this.route, queryParamsHandling: 'preserve'});
+  }
+
 }
