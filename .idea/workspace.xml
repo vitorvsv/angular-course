@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="202">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -38,14 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routing-start/src/app/auth-guard.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#115#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-19">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,8 +120,8 @@
         <option value="$PROJECT_DIR$/routing-start/src/app/page-not-found/page-not-found.component.html" />
         <option value="$PROJECT_DIR$/routing-start/src/app/auth.service.ts" />
         <option value="$PROJECT_DIR$/routing-start/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/routing-start/src/app/auth-guard.service.ts" />
         <option value="$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/routing-start/src/app/auth-guard.service.ts" />
       </list>
     </option>
   </component>
@@ -233,12 +230,12 @@
       <workItem from="1563231257851" duration="6702000" />
       <workItem from="1563487659509" duration="7148000" />
       <workItem from="1563921359373" duration="8143000" />
-      <workItem from="1564172198312" duration="1016000" />
+      <workItem from="1564172198312" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102309000" />
+    <option name="totallyTimeSpent" value="102581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,23 +679,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routing-start/src/app/auth-guard.service.ts">
+    <entry file="file://$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="202">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
           <folding>
-            <element signature="e#0#115#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routing-start/src/app/app-routing.module.ts">
+    <entry file="file://$PROJECT_DIR$/routing-start/src/app/auth-guard.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-19">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
