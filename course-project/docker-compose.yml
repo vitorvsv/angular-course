@@ -8,6 +8,6 @@ web:
         - .:/usr/src/app/
     environment:
         - NODE_ENV=dev
-    command: bash -c "npm start"
+          #    command: bash -c "npm start"
 #    command: bash -c "npm install @angular/cli@8.1.2 && ng serve --port 49153"
 #    command: bash -c "ng serve --port 49153" 
